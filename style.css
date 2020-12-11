@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em 7em;
+}
+
+.links a {
+    margin-left: 2em;
+}
+
+header {
+    padding: 4em 7em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+    margin-bottom: 1em;
+    text-align: center;
+    width: 250px;
+    border-radius: 8px;
+}
+
+.card:nth-child(1) {
+    background: #2196F3;
+}
+
+.card:nth-child(2) {
+    background: #AB47BC;
+}
+
+.card:nth-child(3) {
+    background: #69F0AE;
+}
+
+.card:nth-child(4) {
+    background: #FBC02D;
+}
+
+.card-body div:nth-child(1) {
+    color: white;
+    margin-bottom: 1em;
+}
+
+.card-body div:nth-child(2) {
+    color: white;
+    margin-bottom: 1em;
+}
+
+.card-body {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card img {
+    max-width: 250px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+#quienes {
+    background: #2196F3;
+    padding: 3em 7em;
+    color: black;
+    line-height: 2em;
+    text-align: center;
+    font-weight: 400;
+}
+
+#mision {
+    padding: 4em 7em;
+}
+
+.mision {
+    background: #69F0AE;
+    padding: 1em;
+    border-radius: 20px;
+}
+
+.vision {
+    margin-top: 2em;
+    padding: 1em;
+    border-radius: 20px;
+    background: #FBC02D;
+}
+
+#contacto {
+    background: #546E7A;
+    padding: 4em 7em;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type=text], .btn-enviar {
+    width: 500px;
+    margin: 1.5em 0;
+    padding: 1.5em;
+    display: block;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.btn-enviar {
+    background-color: #4FC3F7;
+    cursor: pointer;
+    color: white;
+    font-weight: 900;
+}
+
+.btn-enviar:hover {
+    background: #039BE5;
+    transition: .2s ease;
+}
